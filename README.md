@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next 14 project template by Hooli Software
 
-## Getting Started
+Starter project template which includes basic configuration to simplify Next 14 project creation.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This template includes:
+- ✅ Typescript
+- ✅ Basic Redux store
+- ✅ TanStack Query (v3) hook template
+- ✅ SCSS support and aliases
+- ✅ reset.css
+- ✅ Mobile-first SCSS mixins for adaptive
+	- Tablet (768px+)
+	- Desktop (1024px+)
+	- Large desktop (1440px+)
+- ✅ Multiple font usage template
+- ✅ MIT license
+
+This project is built using Next.js, a React framework that enables functionality such as server-side rendering and generating static websites. It's ideal for building highly efficient and scalable web applications.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+- You have a basic understanding of React and Next.js.
+
+## Installation
+
+To install this project, follow these steps:
+
+1. Clone the repository:
+  
+```sh
+git clone https://github.com/your-username/your-project-name.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd your-project-name  
+```
+   
+3. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+yarn
+```
 
-## Learn More
+## Quick Start
 
-To learn more about Next.js, take a look at the following resources:
+To run this project, use the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+yarn run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This will start the development server on [http://localhost:3000](http://localhost:3000/). Open this URL in your browser to view the application.
 
-## Deploy on Vercel
+## Contributing to the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To contribute to this project, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`.
+4. Push to the original branch: `git push origin <project_name>/<location>`.
+5. Create the pull request.
+
+Alternatively, see the GitHub documentation on [creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+- [@hoolisoftware](https://github.com/hoolisoftware)
+
+## Contact
+
+If you want to contact me you can reach me at `ilhanchanel20002@gmail.com>`.
+
+## License
+
+This project uses the following license: [MIT](https://opensource.org/license/mit/).
